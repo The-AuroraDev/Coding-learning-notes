@@ -1,0 +1,10 @@
+{
+  "id": "latex-delimiter-renderer",
+  "name": "LaTeX Delimiter Renderer",
+  "version": "1.0.4",
+  "minAppVersion": "1.5.0",
+  "description": "Render \\(…\\) and \\[…\\] math without changing note source.",
+  "author": "Andreas Burger",
+  "authorUrl": "https://github.com/BurgerAndreas",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,44 @@
+.latex-delimiter-renderer-inline {
+  display: inline;
+}
+
+.latex-delimiter-renderer-inline > .MathJax {
+  display: inline-block;
+  margin: 0;
+}
+
+.latex-delimiter-renderer-block {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.cm-editor .latex-delimiter-renderer-block {
+  padding: 0.5em 0;
+}
+
+/* An underscore hidden inside a math widget must not start Markdown emphasis. */
+.cm-editor .cm-em.latex-delimiter-renderer-emphasis-spill,
+.cm-editor .cm-strong.latex-delimiter-renderer-emphasis-spill,
+.cm-editor .cm-em .latex-delimiter-renderer-emphasis-spill,
+.cm-editor .cm-strong .latex-delimiter-renderer-emphasis-spill {
+  font-style: normal;
+  font-weight: inherit;
+  color: var(--text-normal);
+}
+
+.cm-editor .cm-em.latex-delimiter-renderer-source,
+.cm-editor .cm-strong.latex-delimiter-renderer-source,
+.cm-editor .cm-em .latex-delimiter-renderer-source,
+.cm-editor .cm-strong .latex-delimiter-renderer-source,
+.cm-editor .latex-delimiter-renderer-source .cm-em,
+.cm-editor .latex-delimiter-renderer-source .cm-strong {
+  font-style: normal;
+  font-weight: inherit;
+  color: var(--text-normal);
+}
+
+.latex-delimiter-renderer-source-marker {
+  color: var(--text-normal);
+}
