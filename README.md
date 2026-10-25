@@ -12,6 +12,8 @@
 
 ```
 
+`Playground/`下有快捷构建Cpp的脚本（golang）
+
 # 协议
 
 *MIT*
