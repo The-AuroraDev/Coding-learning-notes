@@ -10,3 +10,5 @@
 !.obsidian/themes/
 !.obsidian/snippets/
 !.obsidian/plugins/
+
+tmp/*
