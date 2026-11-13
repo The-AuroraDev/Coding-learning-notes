@@ -1,5 +1,7 @@
 {
-  "cssTheme": "macOS",
+  "cssTheme": "Islands",
   "interfaceFontFamily": "Source Serif 4,Noto Serif SC,Noto Serif CJK SC",
-  "accentColor": ""
+  "accentColor": "",
+  "showViewHeader": false,
+  "showRibbon": true
 }
