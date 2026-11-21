@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对 Coding-learning-notes 的关注。这里主要存放 C++ 算法和 Golang 开发的学习笔记，欢迎通过 PR 修正错误、补充内容。
+感谢你对 Coding-learning-notes 的关注。这里主要存放 C++ 算法的学习笔记，欢迎通过 PR 修正错误、补充内容。
 
 ## 可以贡献什么
 
@@ -19,7 +19,7 @@
    git clone https://github.com/YOUR_USERNAME/Coding-learning-notes.git
    ```
 
-2. 基于最新 `main` 创建分支，分支名带前缀，例如 `docs/fix-go-example`、`feat/add-cpp-sort-note`。
+2. 基于最新 `main` 创建分支，分支名带前缀，例如 `docs/fix-cpp-example`、`feat/add-cpp-sort-note`。
 
 3. 修改后本地跑通代码示例，自查 diff，不要提交构建产物和编辑器配置。
 
@@ -31,7 +31,6 @@
 
 ```
 docs(cpp): 修正快速排序笔记的边界说明
-feat(go): 新增 goroutine 泄漏排查笔记
 fix(playground): 补上 -std=c++17
 ```
 

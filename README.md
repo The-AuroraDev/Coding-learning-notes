@@ -2,14 +2,14 @@
 
 # Coding-learning-notes
 
-> C++ 算法与 Golang 开发的学习笔记。持续更新，欢迎 PR。
+> C++ 算法的学习笔记。持续更新，欢迎 PR。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## 这是什么
 
-存放我在学习 **C++ 算法**和 **Golang 开发**过程中的笔记与代码片段。以中文为主，注重可运行、可查阅，不追求教材式的完备。笔记用 Obsidian 编辑，仓库里保留了一部分 vault 配置，方便直接在 Obsidian 里打开阅读。
+存放我在学习 **C++ 算法**过程中的笔记与代码片段。以中文为主，注重可运行、可查阅，不追求教材式的完备。笔记用 Obsidian 编辑，仓库里保留了一部分 vault 配置，方便直接在 Obsidian 里打开阅读。
 
 ## 如何使用
 
