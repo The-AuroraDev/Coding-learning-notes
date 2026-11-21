@@ -12,3 +12,6 @@
 !.obsidian/plugins/
 
 tmp/*
+
+# 输出目录
+output
