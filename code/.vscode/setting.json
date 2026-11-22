@@ -1,0 +1,35 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.errorSquiggles": "Disabled",
+
+  "[cpp]": {
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false
+  },
+
+
+  "editor.fontFamily": "'Maple Mono NF CN', 'Fira Code', 'Consolas', monospace",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "storage.type.class.cpp",
+          "storage.type.struct.cpp",
+          "storage.type.enum.cpp",
+          "storage.type.namespace.cpp",
+          "keyword.control.directive.cpp",
+          "entity.name.type.cpp"
+        ],
+        "settings": { "fontStyle": "italic" }
+      }
+    ]
+  }
+}

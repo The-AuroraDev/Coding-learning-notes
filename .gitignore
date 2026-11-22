@@ -1,5 +1,6 @@
 # 软件配置
-.vscode/
+# .vscode/
+
 .obsidian/*
 !.obsidian/app.json
 !.obsidian/appearance.json

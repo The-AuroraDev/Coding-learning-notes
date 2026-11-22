@@ -1,0 +1,24 @@
+cpp-notes/
+├── 00-index/              # 总索引、学习路线、待办
+├── 01-language/           # 语言核心
+│   ├── basics/            # 类型、表达式、函数、类
+│   ├── memory/            # 栈/堆、RAII、智能指针、移动语义
+│   ├── templates/         # 模板、泛型、SFINAE、Concepts
+│   ├── concurrency/       # thread、mutex、atomic、内存模型
+│   └── modern-cpp/        # C++11/14/17/20/23 特性
+├── 02-algorithms/         # 算法学习
+│ ├── 00-roadmap.md # 算法学习路线、专题顺序
+│ ├── 01-basics/ # 复杂度、递归、枚举、模拟
+│ ├── 02-data-structures/ # 数组、链表、栈队列、哈希、树、堆、图、并查集
+│ ├── 03-techniques/ # 双指针、二分、前缀和、滑动窗口、排序、搜索、DP、贪心、回溯、位运算、字符串、数学
+│ ├── 04-templates/ # 算法模板笔记：并查集、线段树、Dijkstra 等
+│ ├── 05-problems/ # 题解笔记，按专题或题号组织
+│ └── 06-progress.md # 刷题进度、错题清单、待复习
+├── 03-stl/                # 容器、迭代器、算法、string、ranges
+├── 04-toolchain/          # 编译器、CMake、gdb、sanitizer、clang-format
+├── 05-engineering/        # 项目结构、测试、日志、性能、ABI
+├── 06-projects/           # 每个小项目一个目录
+├── 07-pitfalls/           # 踩坑、编译错误、UB、调试记录
+├── wiki/                  # 提到的内容的一些 wiki
+├── img/                   # 笔记提到的一些图片附件
+└── code/                  # 所有笔记示例代码，保证可编译
